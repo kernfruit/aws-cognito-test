@@ -1,0 +1,16 @@
+{
+  "name": "aws-cognito-test",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A simple webapp to test AWS Cognito with 2FA.",
+  "author": "Caspar Kirsch <mail@casparkirsch.de>",
+  "main": "src/index.html",
+  "license": "ISC",
+  "dependencies": {
+    "amazon-cognito-identity-js": "^3.2.0",
+    "libphonenumber-js": "^1.7.27"
+  },
+  "devDependencies": {
+    "parcel-plugin-clean-dist": "0.0.6"
+  }
+}
